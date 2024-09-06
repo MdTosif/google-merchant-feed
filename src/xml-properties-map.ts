@@ -240,4 +240,7 @@ export const xmlPropertiesMap: Record<keyof Product, XmlPropertiesMapNode> = {
   transitTimeLabel: {
     xmlName: "g:transit_time_label",
   },
+  canonicalLink: {
+    xmlName: "g:canonical_link",
+  }
 };
