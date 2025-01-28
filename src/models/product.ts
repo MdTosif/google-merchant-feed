@@ -89,5 +89,6 @@ export type Product = {
   tax?: Tax;
   taxCategory?: string;
   canonicalLink?:string;
+  storeCode?: string;
   pickupSLA?: "same day" | "next day" | "2-day" | "3-day" | "4-day" | "5-day";
 };

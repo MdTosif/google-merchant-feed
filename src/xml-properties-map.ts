@@ -246,4 +246,7 @@ export const xmlPropertiesMap: Record<keyof Product, XmlPropertiesMapNode> = {
   pickupSLA: {
     xmlName: "g:pickup_SLA",
   },
+  storeCode: {
+    xmlName: "g:store_code",
+  },
 };
