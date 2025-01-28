@@ -242,5 +242,8 @@ export const xmlPropertiesMap: Record<keyof Product, XmlPropertiesMapNode> = {
   },
   canonicalLink: {
     xmlName: "g:canonical_link",
-  }
+  },
+  pickupSLA: {
+    xmlName: "g:pickup_SLA",
+  },
 };
